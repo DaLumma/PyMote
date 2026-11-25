@@ -1,0 +1,10 @@
+[lint]
+extend-select = [
+    "N",   # pep8-naming: printBaseUrl, etc.
+    "A",   # shadowing built-ins: e.g. an `input` parameter
+    "I",   # import sorting
+    "E",   # pycodestyle style errors
+    "W",   # pycodestyle warnings
+    "B",   # bugbear: common bug patterns
+    "UP",  # suggests modern syntax, e.g. f-strings instead of %
+]
