@@ -91,4 +91,5 @@ class TizenTV:
             self.ws.send(payload)
         except ConnectionClosed:
             print("connection lost, reconnecting...")
+            self.connect()
             self.ws.send(payload)
